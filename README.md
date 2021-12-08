@@ -1,7 +1,7 @@
 # gdocker - a wrapper around udocker 
 ##### gdocker encapsulates udocker's flags to facilitate your routine usage, and extends udocker functionality for more complex use cases such as setting-up packages for a new container and managing a local tar repository.  
 ##### In addition, gdocker can seamlessly run udocker commands (e.g. gdocker run, gdocker ps etc.).  In addition it contains the following commands (flags values can be replaced):
-##### ![#f03c15](Note that gdocker work only in Linux OS!)
+![#f03c15](Note that gdocker work only in Linux OS!)
 
 - [Installation](#installation)
 - [Commands](#commands)
