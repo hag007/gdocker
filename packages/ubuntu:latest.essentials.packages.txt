@@ -1,0 +1,43 @@
+# Basics
+build-essential
+libbz2-dev
+liblz-dev
+gawk
+wget
+libpcre3 libpcre3-dev
+libcurl4 libcurl4-openssl-dev
+libssl-dev
+libgit2-dev
+libxml2-dev
+aptitude
+# software-properties-common
+ 
+# C compilers
+fort77
+xorg-dev
+liblzma-dev  libblas-dev gfortran
+gcc-multilib
+gobjc++
+libreadline-dev
+
+# fonts
+# texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
+xvfb xauth xfonts-base
+xfonts-100dpi xfonts-75dpi
+
+# editors/viewers
+screen
+tmux
+vim
+
+# python 
+python3
+python3-pip
+python3-venv
+
+# git
+openssh-client
+git
+
+# Java
+default-jre

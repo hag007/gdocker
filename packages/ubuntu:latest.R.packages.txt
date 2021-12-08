@@ -1,0 +1,14 @@
+# for R installation/libs
+wget
+r-base
+libxkbcommon-x11-0
+libclang-dev
+libxkbcommon0
+xkb-data
+libnss3
+libasound2
+libssl-dev
+libxml2-dev
+libcurl4-openssl-dev
+libnlopt-dev
+

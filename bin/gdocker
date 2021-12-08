@@ -1,0 +1,18 @@
+#!/bin/bash
+source constants.sh
+source parse_args.sh ""
+
+# error() { log "ERROR: $*" >&2; }
+
+case $1 in
+    up) shift; bash gdocker_up.sh "$@";;
+    setup) shift; bash gdocker_setup.sh "$@";;
+    gaga-import) shift; bash gdocker_import.sh "$@";;
+    gaga-export) shift; bash gdocker_export.sh "$@";;
+    gaga-ls) shift; bash gdocker_gaga_ls.sh "$@";;
+    gaga-rm) shift; bash gdocker_gaga_rm.sh "$@";;
+    help) cat ${root_dir}doc.txt ;; 
+    "") cat ${root_dir}doc.txt ;;
+    *) udocker "$@"
+esac
+
