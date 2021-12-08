@@ -2,7 +2,7 @@
 gdocker encapsulates udocker's flags to facilitate your routine usage, and extends udocker functionality for more complex use cases such as setting-up packages for a new container and managing a local tar repository.  
 In addition, gdocker can seamlessly run udocker commands (e.g. gdocker run, gdocker ps etc.).  In addition it contains the following commands (flags values can be replaced):
  
-##### Please note that gdocker work only in Linux OS! Also, the `setup` commands works only for Debian, and Debian-based Linux distributions (which work apt-get package manager).
+##### Please note that gdocker work only in Linux OS! Also, the `gdocker setup`(#setup) commands works only for Debian, and Debian-based Linux distributions (which work apt-get package manager).
 
 
 - [Installation](#installation)
